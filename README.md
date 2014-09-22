@@ -1,1 +1,1 @@
-My advanced JS App. Unit test will be added.
+JS Exercise App. Unit test will be added soon.

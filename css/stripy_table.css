@@ -21,9 +21,13 @@ h1
 
 .dataTable
 {
-	margin-top: 0.5em;
+	/*margin-top: 0.5em;*/
 	border: 1px solid #DDDDDD;
 	border-collapse: collapse;
+	margin: 0 auto;
+	width: 600px;
+	/*color: blue;*/
+	padding: 1em;
 }
 
 tr.alt

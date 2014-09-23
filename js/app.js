@@ -23,7 +23,7 @@ function eventRegHandler2(event) {
 		event.preventDefault();
 		alert("Welcome to our social network...");
 		window.location = 'home.html';
-		console.log("go go...");
+		console.log("going home page...");
 
 }
 

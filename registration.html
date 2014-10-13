@@ -12,7 +12,7 @@
 	</header>
 	
 	<section>
-		<form id="register" action="home" method="post">
+		<form id="register" action="home.html" method="post">
 			<label for="firstName">Please enter your first name:</label><br/>
 			<input id="firstName" type="text" name="firstName" autofocus placeholder="your firstname..." required/><br/>
 		
@@ -21,6 +21,7 @@
 
 			<label for="birthday">Enter your birthday:</label><br/>
 			<input id="birthday" type="date" name="birthday" autofocus placeholder="your birthday..."required/><br/>
+			<input type="hidden" name="email" value="<?php echo $_POST['email']; ?>" />
 
 		<button id="btn2" type="submit" class="btninit" >Sign up</button>
 			

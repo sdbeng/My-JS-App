@@ -13,7 +13,6 @@ var form = {
 //delegate handler
 
 
-
 //register step2 handler
 
 form.register.addEventListener("submit", eventRegHandler2);
@@ -26,16 +25,3 @@ function eventRegHandler2(event) {
 		console.log("going home page...");
 
 }
-
-
-/*
-var form = document.forms[0]; 
-form.addEventListener("submit", function(evt){
-  var email = form.elements['answer_1'].value;
-  if( email == 'foo@bar.ca') {
-     evt.preventDefault();
-     alert('redirecting the user...');
-     window.location = 'xxxx';
-  }
-});
-*/
